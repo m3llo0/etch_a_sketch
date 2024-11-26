@@ -8,12 +8,23 @@
 }
 .square{
     background-color: pink;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     outline : 2px solid black;
     transition: background-color 0.1s; 
 }
 
 .square:hover{
     background-color: grey;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    margin-top: 50px;
+}
+
+button {
+    border-radius: 7px;
 }
